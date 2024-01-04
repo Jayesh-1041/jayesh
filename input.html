@@ -1,64 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>fieldset</title>
+    <title>Document</title>
 </head>
-
 <body>
- 
+    <form action="" method="get">
+        <fieldset style="font-size: 30px; border-left-color: chartreuse; width: 100%;        background-color:cadetblue;">
+        Name
+        <input type="name" name="" id=""/>
+        <br>
+        email
+        <input type="email" name="" id=""/>
+        <br>
+        password
+        <input type="password" name="" id=""/>
+        <br>
+        tel
+        <input type="tel" name="" id=""/>
+        <br>
+        checbox
+        <input type="checkbox" name="" id="">jayesh
+        <input type="checkbox" name="" id="">dhiraj
+        <input type="checkbox" name="" id="">bhavesh
+        <input type="checkbox" name="" id="">naman
+        <br>
+        select
+        <select name="" id="">
+            <option value="">jayesh</option>
+            <option value="">dhiraj</option>
+            <option value="">bhavesh</option>
+            <option value="">naman</option>
+            <option value="">vivek</option>
+        </select>
+        <br>
+        <label for="browser">Choose your browser from the list:</label>
+<input list="browsers" name="browser" id="browser"/>
 
-    <form action="" method="">
-        <h1>Registration</h1>
-        <fieldset>
-            <h3>Full Name</h3>
-            <legend>Persnal details</legend>
+<datalist id="browsers">
+<option value="Edge">
+<option value="Firefox">
+<option value="Chrome">
+<option value="Opera">
+<option value="Safari">
+</datalist>
 
-            <label for="your name"></label>
-            <input type="text" name="" id="" placeholder="Enter your name" minlength="5" maxlength="15" required />
-            
+        <br>
+        date
+        <input type="date" name="" id=""/>
+        <br>
+        date time
+        <input type="datetime" name="" id=""/>
+        <br>
+        date time local
+        <input type="datetime-local" name="" id=""/>
+        <br>
+        radio
+        <input type="radio" name="male" id=""/>male
+        <input type="radio" name="male" id=""/>female
+        <br>
+        range
+        <input type="range" name="" id=""/>
+        <br>
+        serce
+        <input type="search" name="" id=""/>
+        <br>
+        file
+        <input type="file" name="" id=""/>
+        <br>
+        checbox
+        <input type="checkbox" name="" id=""/>
+        <br>
+        Colors
+        <input type="color" name="" id=""/>
+        <br>
+        submit
+        <input type="submit" name="" id=""/>
+        <br>
+        reset
+        <input type="reset" name="" id=""/>
+        <br>
+        URL
+        <input type="url" name="" id=""/>
+        <br>
+        button
+        <input type="button" name="" id=""/>
 
-            <h3>Email id</h3>
-            <label for="email"></label>
-            <input type="email" name="" id="email" placeholder="Enter your Email id" minlength="5" maxlength="15"
-                required />
-            
-            <h3>Birth Date</h3>
-            <label for="Birth date"></label>
-            <input type="" name="" id="Birth date" placeholder="Enter your birth date" minlength="5" maxlength="15"
-                required />
-
-            <h3>Phone number</h3>
-            <label for="Phone number"></label>
-            <input type="tel" name="" id="Phone number" placeholder="Enter your phone number" minlength="3"
-                maxlength="15" required />
-            
-            <h3>Gender</h3>
-            <label for="male" form="">male</label>
-            <input type="radio" name="Gender" id="male" />
-            <label for="femaile">femaile</label>
-            <input type="radio" name="Gender" id="femaile" />
-            
-            <H3>username</H3>
-            <label for="observation"></label>
-            <input type="text" name="" id="username" placeholder="username" minlength="3" list="users" />
-            <select name="" id="">
-                <option value="">jayesh</option>
-                <option value="">naman</option>
-                <option value="">bhavesh</option>
-                <option value="">mahesh</option>
-                <option value="">dhiraj</option>
-            </select>
-        
-            </datalist>
-        </fieldset>
-        <fieldset>
-            <label for="marks"></label>
-            <input type="number" name="" id="marks" placeholder="Enter Marks" required min="3" max="999" />
-        </fieldset>
+    </fieldset>
     </form>
 </body>
-
 </html>
